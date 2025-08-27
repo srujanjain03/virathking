@@ -44,6 +44,7 @@ nav .left a {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Section links */
 .links {
     text-align: center;
     margin: 1.5rem 0;
@@ -62,6 +63,26 @@ nav .left a {
     transition: 0.1s;
     color: black;
 }
+
+.links2 {
+    text-align: left;
+    margin: 30px;
+}
+
+.links2 .btn {
+
+    align-items: left;
+    gap: 20px;
+    font-size: 1.1rem;
+    padding: 12px 10px;
+    background-color: var(--link-color);
+
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.1s;
+    color: black;
+}
+
 
 
 /* Hero Section */
@@ -100,4 +121,13 @@ nav .left a {
 .keypoints h3 {
     font-size: 1.5rem;
     color: #222;
+}
+
+div.formats {
+    padding: 1rem 2rem;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
 }
